@@ -176,12 +176,12 @@ if (resumeBtn) {
             .then(response => {
                 if (!response.ok) {
                     e.preventDefault();
-                    showNotification('Resume Downloaded!', 'info');
+                    showNotification('Resume will be available soon!', 'info');
                 }
             })
             .catch(() => {
                 e.preventDefault();
-                showNotification('Resume will be available soon!', 'info');
+                showNotification('Resume Downloaded!', 'info');
             });
     });
 }
