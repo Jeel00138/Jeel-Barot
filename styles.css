@@ -653,13 +653,7 @@ body {
     font-size: 0.875rem;
     font-weight: 500;
 }
-.experience-list {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    max-width: 800px;
-    margin: 0 auto;
-}
+
 /* Projects Section */
 .section-header {
     display: flex;
