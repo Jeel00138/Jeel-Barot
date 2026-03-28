@@ -987,25 +987,4 @@ body {
         gap: 1rem;
     }
     
-    .experience-card {
-        width : 100px;
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .experience-icon {
-        margin: 0 auto;
-    }
-}
-.container{
-    max-width:1000px;
-    margin:0 auto;
-    padding:0 var(--spacing-container);
-}
-
-.experience-list {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    max-width: 800px;
-    margin: 0 auto;
+   
