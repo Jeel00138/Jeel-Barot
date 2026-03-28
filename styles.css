@@ -988,6 +988,7 @@ body {
     }
     
     .experience-card {
+        width : 100px;
         flex-direction: column;
         text-align: center;
     }
@@ -1001,3 +1002,10 @@ body {
     margin:0 auto;
     padding:0 var(--spacing-container);
 }
+
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
